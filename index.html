@@ -24,7 +24,9 @@
       </div>
       <img src="/icons/80.webp" alt="80 Tahun" class="w-56" />
     </nav>
-    <section class="flex items-center justify-center text-center gap-2">
+    <section
+      class="flex flex-col items-center justify-center text-center gap-2"
+    >
       <div class="flex flex-col items-center gap-2 w-full mt-40">
         <img
           src="/icons/harmoni.webp"
@@ -37,13 +39,13 @@
           TV Galaksi Karya
         </h1>
       </div>
+      <div class="video-wrapper h-full overflow-hidden my-20 w-[90%]">
+        <div
+          id="videoSlider"
+          class="grid grid-cols-3 transition-transform duration-300 ease-in-out will-change-transform"
+        ></div>
+      </div>
     </section>
-    <div class="video-wrapper h-full overflow-hidden my-20 w-[90%]">
-      <div
-        id="videoSlider"
-        class="grid grid-cols-3 transition-transform duration-300 ease-in-out will-change-transform"
-      ></div>
-    </div>
     <div
       id="videoModal"
       class="fixed inset-0 z-[999] bg-black/60 backdrop-blur-md hidden items-center justify-center"
