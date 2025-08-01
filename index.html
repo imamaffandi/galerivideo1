@@ -12,6 +12,7 @@
   <body
     class="relative flex flex-col items-center justify-around min-h-screen w-full font-sans bg-fixed bg-no-repeat bg-center before:content-[''] before:fixed before:top-0 before:left-0 before:w-full before:h-screen before:bg-[url('/background/fix.png')] before:bg-cover before:bg-no-repeat before:bg-center before:-z-10"
   >
+    <!-- Navbar -->
     <nav
       class="fixed w-full left-0 top-0 flex justify-between items-center gap-4 px-3"
     >
@@ -24,10 +25,11 @@
       </div>
       <img src="/icons/80.webp" alt="80 Tahun" class="w-56" />
     </nav>
+    <!-- Konten -->
     <section
-      class="flex flex-col items-center justify-center text-center gap-2"
+      class="flex flex-col items-center justify-center text-center gap-2 mt-40"
     >
-      <div class="flex flex-col items-center gap-2 w-full mt-40">
+      <div class="flex flex-col items-center gap-2 w-full">
         <img
           src="/icons/harmoni.webp"
           alt="Harmoni Bintang"
@@ -46,6 +48,7 @@
         ></div>
       </div>
     </section>
+    <!-- Modal -->
     <div
       id="videoModal"
       class="fixed inset-0 z-[999] bg-black/60 backdrop-blur-md hidden items-center justify-center"
@@ -58,6 +61,7 @@
         ><video id="videoPlayer" class="w-full rounded-lg" controls></video>
       </div>
     </div>
+    <!-- Footer -->
     <footer
       class="w-full flex items-center pr-20 justify-between gap-5 z-0 fixed z-0 bottom-0"
     >
